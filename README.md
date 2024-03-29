@@ -108,5 +108,14 @@ git branch -m <new branchname>
 git push new local branch to repo
 git push -u origin <branchName>
 ```
+15. git delete one commit in repository:
 
+```git rebase -i HEAD~2
+p
+d
+[d- will help in delete one commit which you want to delete]
+git push -f
+or
+git push -f origin <branch name> 
+```
 
