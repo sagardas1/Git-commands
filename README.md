@@ -8,8 +8,6 @@
    cd -
    git apply /c/Users/sada1022/...
    ```
-
-
 3. resolve incomming and outgoing commint and make it indentical with remote branch.
    ```git reset --hard origin/<branch_name>```
 
