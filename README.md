@@ -13,7 +13,8 @@
 
 4. git squash:
 
-```git rebase -i HEAD~10
+```
+git rebase -i HEAD~10
 p
 f
 f
