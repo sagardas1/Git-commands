@@ -117,4 +117,6 @@ git push -f
 or
 git push -f origin <branch name> 
 ```
+16. Remove one file which is already committed 
 
+git restore --stage fileName 
