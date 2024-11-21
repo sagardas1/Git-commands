@@ -122,7 +122,7 @@ git push -f origin <branch name>
 git restore --stage fileName 
 
 17. Remove the commited file which is in repository but cnt able to see in local repository
- 
+ ```
 First we need to get the path of the file which we need to delete
 
 git ls-files | grep FILE_NAME 
@@ -132,3 +132,6 @@ then to remove
 git rm --cached src/main/.DS_Store
 
 then comit and push
+
+```
+
