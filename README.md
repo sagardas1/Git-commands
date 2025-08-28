@@ -116,6 +116,7 @@ d
 git push -f
 or
 git push -f origin <branch name> 
+
 ```
 16. Remove one file which is already committed 
 
@@ -136,6 +137,7 @@ then comit and push
 ```
 
 18. If 5 files are already committed, u want to remove one file :
+
  ```
 	1.	git reset --soft HEAD~1
 	2.	git reset HEAD filename.ext
