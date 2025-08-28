@@ -146,7 +146,6 @@ then comit and push
 	5.	git push
 
 ```
-```
  
 19. If you have done “git add . “ , and you have to remove one file 
  
