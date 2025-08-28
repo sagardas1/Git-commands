@@ -101,6 +101,7 @@ git checkout -b <new branch name>
 
 14. change local branch name:
 ```
+
 git checkout <old_branch>
 git branch -m <new branchname>
 
@@ -123,7 +124,9 @@ git push -f origin <branch name>
 git restore --stage fileName 
 
 17. Remove the commited file which is in repository but cnt able to see in local repository
- ```
+ 
+```
+
 First we need to get the path of the file which we need to delete
 
 git ls-files | grep FILE_NAME 
@@ -139,6 +142,7 @@ then comit and push
 18. If 5 files are already committed, u want to remove one file :
 
  ```
+
 	1.	git reset --soft HEAD~1
 	2.	git reset HEAD filename.ext
 	3.	git restore --staged filename.ext
