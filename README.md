@@ -135,3 +135,19 @@ then comit and push
 
 ```
 
+18. If 5 files are already committed, u want to remove one file :
+ ```
+	1.	git reset --soft HEAD~1
+	2.	git reset HEAD filename.ext
+	3.	git restore --staged filename.ext
+	4.	git commit -m “Commit Message”
+	5.	git push
+
+```
+ 
+19. If you have done “git add . “ , and you have to remove one file 
+ 
+```
+	1.	git restore --staged filename.ext
+```
+
